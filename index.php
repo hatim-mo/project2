@@ -1,0 +1,543 @@
+<?php include('connection.php');?>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> CAR shopping </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+   <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+
+  <link href="css/nivo-slider-theme.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+  <div id="preloader"></div>
+
+  <header>
+    <div id="sticker" class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+
+            <nav class="navbar navbar-default">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+                <a class="navbar-brand page-scroll sticky-logo" href="index.php">
+                  <h1><span>YOUR</span>CAR</h1>
+              
+								</a>
+              </div>
+              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                    <a class="page-scroll" href="index.php">Home</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#about">About</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#services">Services</a>
+                  </li>
+                   <li>
+                    <a class="page-scroll" href="#products">Products</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="admin_login.php">Admin</a>
+                  </li>
+                 
+                  <li>
+                    <a class="page-scroll" href="order.php">Order</a>
+                  </li>
+                </ul>
+              </div>
+               
+  </header>
+  
+
+  <div id="home" class="slider-area">
+    <div class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src="img/slider/slider1.jpg" alt="" title="#slider-direction-1" />
+        <img src="img/slider/slider2.jpg" alt="" title="#slider-direction-2" />
+      </div>
+
+      <div id="slider-direction-1" class="slider-direction slider-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+
+                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">The Best In CARS Business  </h2>
+                </div>
+
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">We're In The Business Of CARS We Are  Helping You To select the perfect car for you</h1>
+                </div>
+
+                <!-- <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">-->
+                    <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
+                    <a class="ready-btn " href="order1.html">ORDER NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<div id="about" class="about-area area-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="section-headline text-center">
+          <h2>About car shop</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="well-left">
+          <div class="single-well">
+            <a>
+               <img src="img/about/3.jpg" alt="">
+                 </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="well-middle">
+          <div class="single-well">
+            <a>
+              <h4>benefits of CARS online shopping</h4>
+            </a>
+            <p>
+              online shopping has become one of the methods,thet many people follow when buying ,due to the availability of some advantages and characteristics, that it enjoys.
+
+            </p>
+            <ul>
+              <li>
+                <i class="fa fa-check"></i> time saving
+              </li>
+              <li>
+                <i class="fa fa-check"></i> better prices
+              </li>
+              <li>
+                <i class="fa fa-check"></i> saving money
+              </li>
+              <li>
+                <i class="fa fa-check"></i> shopping at any time
+              </li>
+              <li>
+                <i class="fa fa-check"></i> greater variety in supply
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+ 
+<div id="services" class="services-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline services-head text-center">
+            <h2>Our Services</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="services-contents">
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon">
+											<i class="fa fa-car"></i>
+										</a>
+                  <h4>After Sell Services</h4>
+                  <p>
+                   we provide a various type of After Sell Services such aas (free cleaning - an Oil change - three free cheacke ups for car body and car engine).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon">
+											<i class="fa fa-lock"></i>
+										</a>
+                  <h4>Pre-order Services</h4>
+                  <p>
+                    we provide a Pre-order Services for our clients to make them the most first person to have the car of there dream.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" >
+											<i class="fa fa-globe"></i>
+										</a>
+                  <h4>Worldwide Shiping Services</h4>
+                  <p>
+                    we provide a worldwide shiping services that service allow us to ship our clients car from the manufacturing countries directly to our clients.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+   <div class="wellcome-area">
+    <div class="well-bg">
+      <div class="test-overly"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="wellcome-text">
+              <div class="well-text text-center">
+                <h2>Welcome To Our CAR shopping website </h2>
+                <p>
+                  the CAR shopping online store, is one of the best markets at the time.
+                </p>
+             
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div id="products" class="products-area area-padding fix">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Our Products</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+         <div class="awesome-project-1 fix">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="awesome-menu ">
+              <ul class="project-menu">
+              <?php 
+                    $sqli=mysqli_query($conn,"SELECT * FROM `company`");
+                    while($sqlio=mysqli_fetch_array($sqli)){
+                     
+              ?>
+               
+                <li>
+                  <a href="#" data-filter=".<?php echo $sqlio['id'];?>"><?php echo $sqlio['company'];?></a>
+                </li>
+                <?php } ?>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="awesome-project-content">
+
+             <?php 
+                          $sqli=mysqli_query($conn,"SELECT * FROM `company`");
+                          while($sqlio=mysqli_fetch_array($sqli)){
+                            $id=$sqlio['id'];
+
+                            $sqli0=mysqli_query($conn,"SELECT * FROM `motors` WHERE company='$id'");
+                            while($sqlio0=mysqli_fetch_array($sqli0)){
+                            $img=$sqlio0['image'];
+              ?>
+
+
+
+          <div class="col-md-4 col-sm-4 col-xs-12 <?php echo $sqlio['id'];?>">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/<?php echo $img;?>" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="img/portfolio/<?php echo $img;?>">
+                      <h1>ferrari</h1>
+                      <h2>year:2021</h2> 
+                      <h3>type:rear drive</h3>
+                      <span>price $22,199</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <?php } } ?>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div id="team" class="our-team-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+
+            <h2>Our Team</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="team-top">
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="our team.html">
+						<img src="img/team/1.jpg" alt="our team.html">
+						</a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+ <a href="our team.html">
+							<i class="fa fa-facebook"></i>
+							</a>
+                    </li>
+                    <li>
+                      <a href="our team.html">
+						<i class="fa fa-twitter"></i>
+							</a>
+                    </li>
+                    <li>
+                      <a href="our team.html">
+							<i class="fa fa-instagram"></i>
+							</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>madoti</h4>
+                <p>wab disgin</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+					<img src="img/team/2.jpg" alt="our team.html">
+						</a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="our team.html">
+							<i class="fa fa-facebook"></i>
+						</a>
+                    </li>
+                    <li>
+                      <a href="our team.html">
+							<i class="fa fa-twitter"></i>
+							</a>
+                    </li>
+                    <li>
+                      <a href="our team.html">
+							<i class="fa fa-instagram"></i>
+							</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>tamer mohammad</h4>
+                <p>disigner interfaces</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="our team.html">
+					<img src="img/team/3.png" alt="our team.html">
+					</a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="our team.html">
+						<i class="fa fa-facebook"></i>
+						</a>
+                    </li>
+                    <li>
+                      <a href="our team.html">
+							<i class="fa fa-twitter"></i>
+							</a>
+                    </li>
+                    <li>
+                      <a href="our team.html">
+						<i class="fa fa-instagram"></i>
+							</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>basher </h4>
+                <p>Web Design</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+					<img src="img/team/4.jpg" alt="our team.html">
+					</a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="our team.html">
+						<i class="fa fa-facebook"></i>
+						</a>
+                    </li>
+                    <li>
+                      <a href="our team.html">
+						<i class="fa fa-twitter"></i>
+						</a>
+                    </li>
+                    <li>
+                      <a href="our team.html">
+						<i class="fa fa-instagram"></i>
+						</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>mosab</h4>
+                <p>wab Developer</p>
+              </div>
+            </div>
+          </div>
+ 
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="single-icon">
+                <i class="fa fa-mobile"></i>
+                <p>
+                  Call: +249110144714<br>
+                  <span>Monday-Friday (9am-6pm)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="single-icon">
+                <i class="fa fa-envelope-o"></i>
+                <p>
+                  Email: carshoping@gmail.com.com<br>
+                  <span>Web: www.carshoping.com</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Start contact icon column -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="single-icon">
+                <i class="fa fa-map-marker"></i>
+                <p>
+                  Location: A108 al wadi Street<br>
+                  <span>NY 535022, omdurman</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+
+        
+          
+
+
+
+      <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+      <script src="lib/jquery/jquery.min.js"></script>
+      <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+      <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+      <script src="lib/venobox/venobox.min.js"></script>
+      <script src="lib/knob/jquery.knob.js"></script>
+      <script src="lib/wow/wow.min.js"></script>
+      <script src="lib/parallax/parallax.js"></script>
+      <script src="lib/easing/easing.min.js"></script>
+      <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+      <script src="lib/appear/jquery.appear.js"></script>
+      <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    
+
+      <script src="contactform/contactform.js"></script>
+    
+      <script src="js/main.js"></script>
+    </body>
+    
+    </html>
+    

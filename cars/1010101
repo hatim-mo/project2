@@ -1,0 +1,38 @@
+<html>
+<body>
+<ol type="I">
+<li> hedings </li>
+<li> basic </li>
+<li> list </li>
+<ol type="A">
+<li>ordered 
+<ol>
+	<li> the ol tag
+		<ol type="a">
+			<li>type</li>
+			<li>start</li>
+
+			<li>compact</li>
+
+		<li> the li tag</li></ol></li>
+		<li>unordred</li>
+		<ol>
+			<li>the ul tag</li>
+			<li>the li tag</li></ol></li>
+
+
+			<li> defintion
+				<ol>
+					<li>the dl tag
+					<li>the dt tag
+					<li>the dd tag </li></ol>
+									</li></ol>
+									</li>
+									<li> mmmmmmmm </li></ol>
+
+
+
+
+
+
+
